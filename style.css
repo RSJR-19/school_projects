@@ -5,7 +5,7 @@ header {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(https://img.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_53876-117324.jpg?semt=ais_hybrid&w=740&q=80);
+  background: linear-gradient(120deg, blue, red);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,6 +20,7 @@ body {
 }
 
 
+
 .favorite-section,
 .list-section {
   display: flex;
@@ -28,7 +29,7 @@ body {
 }
 
 .frame {
-    color: black;
+  color: black;
   width: 350px;
   height: 350px;
   border: 8px gold solid;
@@ -37,7 +38,6 @@ body {
 
 .frame-box {
   height: 100%;
-  background-color: green;
   overflow: hidden;
 }
 
